@@ -4,53 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e955960b0cfa8b5e43c5e144655db747",
-    "content-hash": "4727b183f3b1952744ea441d09d378dd",
+    "hash": "6913aa3acef5c72730f5d608b65db678",
+    "content-hash": "594bcb2f8f6300985e37f69d29450e74",
     "packages": [
-        {
-            "name": "amnah/yii2-user",
-            "version": "5.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/amnah/yii2-user.git",
-                "reference": "f92c239c8fc002a2b8931659edc6c733ce0c651d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/amnah/yii2-user/zipball/f92c239c8fc002a2b8931659edc6c733ce0c651d",
-                "reference": "f92c239c8fc002a2b8931659edc6c733ce0c651d",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "*",
-                "yiisoft/yii2-authclient": "*"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "amnah\\yii2\\user\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "amnah",
-                    "email": "amnah.dev@gmail.com"
-                }
-            ],
-            "description": "Yii 2 user authentication module",
-            "keywords": [
-                "Authentication",
-                "auth",
-                "user",
-                "yii",
-                "yii2"
-            ],
-            "time": "2016-02-28 04:38:35"
-        },
         {
             "name": "bower-asset/bootstrap",
             "version": "v3.3.7",
@@ -342,6 +298,53 @@
                 "html"
             ],
             "time": "2016-07-16 12:58:58"
+        },
+        {
+            "name": "nkostadinov/yii2-user",
+            "version": "0.1-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nkostadinov/yii2-user.git",
+                "reference": "220bc66c2189ffc702fb47fa029114e659780556"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nkostadinov/yii2-user/zipball/220bc66c2189ffc702fb47fa029114e659780556",
+                "reference": "220bc66c2189ffc702fb47fa029114e659780556",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-authclient": "*",
+                "yiisoft/yii2-bootstrap": "~2.0.3"
+            },
+            "require-dev": {
+                "yiisoft/yii2-codeception": "~2.0.0",
+                "yiisoft/yii2-swiftmailer": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "nkostadinov\\user\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Nikola Kostadinov",
+                    "email": "nikolakk@gmail.com"
+                }
+            ],
+            "description": "User management functionalities.",
+            "keywords": [
+                "extension",
+                "user",
+                "yii2"
+            ],
+            "time": "2016-03-16 13:11:16"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1041,7 +1044,7 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "beta",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,

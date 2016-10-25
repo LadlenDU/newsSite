@@ -8,16 +8,13 @@
     "support": {
         "source": "https://github.com/LadlenDU/newsSite"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "beta",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": ">=2.0.5",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
-        "amnah/yii2-user": "^5.0",
-        "johnitvn/yii2-user-plus": "@dev",
-        "kartik-v/yii2-grid": "*",
-        "dektrium/yii2-user": "*"
+        "nkostadinov/yii2-user": "*"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
