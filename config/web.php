@@ -18,7 +18,8 @@ $config = [
             'class' => 'yii\caching\FileCache',
         ],
         'user' => [
-            'class' => 'nkostadinov\user\components\User',
+            #'class' => 'nkostadinov\user\components\User',
+            'class' => 'app\components\User',
         ],
         /*'user' => [
             #'identityClass' => 'app\models\User',
