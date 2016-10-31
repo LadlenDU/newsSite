@@ -92,4 +92,6 @@ return [
     'Your password is the same as a previous password of yours. For security reasons, please add another password.' => 'Ваш пароль такой же как предыдущий. По причинам безопасности, пожалуйста добавьте другой пароль.',
     'Your registration is confirmed succesfully!' => 'Ваша регистрация успешно подтверждена!',
     '{attribute} must be a string' => 'Атрибут {attribute} должен быть строкой',
+    'Username' => 'Имя пользователя',
+    'Remember Me' => 'Запомнить меня',
 ];

@@ -2,8 +2,8 @@
 
 return [
     // string, required, root directory of all source files
-    #'sourcePath' => __DIR__ . '/..',
-    'sourcePath' => '@vendor/nkostadinov/yii2-user',
+    'sourcePath' => __DIR__ . '/..',
+    #'sourcePath' => '@vendor/nkostadinov/yii2-user',
     // string, required, root directory containing message translations.
     'messagePath' => __DIR__,
     // array, required, list of language codes that the extracted messages
