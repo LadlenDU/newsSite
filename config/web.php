@@ -9,6 +9,7 @@ $config = [
     'bootstrap' => ['log'],
     // set target language to be Russian
     'language' => 'ru',
+    'sourceLanguage' => 'en-US',
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation

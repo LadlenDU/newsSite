@@ -94,4 +94,13 @@ return [
     '{attribute} must be a string' => 'Атрибут {attribute} должен быть строкой',
     'Username' => 'Имя пользователя',
     'Remember Me' => 'Запомнить меня',
+    #'{attribute} should contain at least {n, plural, one{one character} other{# characters}} ({found} found)!' => '{attribute} должен содержать минимум {n, plural, one{one character} other{# characters}} ({found} найдено)!',
+    #'{attribute} should contain at most {n, plural, one{one character} other{# characters}} ({found} found)!' => '',
+    #'{attribute} should contain exactly {n, plural, one{one character} other{# characters}} ({found} found)!' => '',
+    #'{attribute} cannot contain the username' => '',
+    '{attribute} cannot contain an email address' => '{attribute} не может содержать адрес электронной почты',
+    '{attribute} should contain at least {n, plural, one{one lower case character} other{# lower case characters}} ({found} found)!' => '{attribute} должен содержать минимум {n, plural, one{# символ нижнего регистра} few{# символа нижнего регистра} many{# символов нижнего регистра} other{# в общем количестве символов нижнего регистра}} ({found} всего найдено)!',
+    '{attribute} should contain at least {n, plural, one{one upper case character} other{# upper case characters}} ({found} found)!' => '{attribute} должен содержать минимум {n, plural, one{# символ верхнего регистра} few{# символа верхнего регистра} many{# символов верхнего регистра} other{# в общем количестве символов верхнего регистра}} ({found} всего найдено)!',
+    '{attribute} should contain at least {n, plural, one{one numeric / digit character} other{# numeric / digit characters}} ({found} found)!' => '{attribute} должен содержать минимум {n, plural, one{# цифровое значение} few{# цифровых значения} many{# цифровых значений} other{# в общем количестве цифровых значений}} ({found} всего найдено)!',
+    '{attribute} should contain at least {n, plural, one{one special character} other{# special characters}} ({found} found)!' => '{attribute} должен содержать минимум {n, plural, one{# специальное значение} few{# специальных значения} many{# специальных значений} other{# в общем количестве специальных значений}} ({found} всего найдено)!',
 ];
